@@ -23,7 +23,6 @@ jobs:
 
     - name: Install dependencies
       run: |
-        npm ci
         cd .brightsec
         npm i --save=false @sectester/core @sectester/repeater @sectester/scan @sectester/runner
 
